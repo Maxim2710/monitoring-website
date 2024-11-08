@@ -6,8 +6,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class CheckResponse {
-    private String url;            // URL, который был проверен
-    private boolean isAvailable;   // Доступность сайта
-    private long responseTime;     // Время отклика в миллисекундах (если сайт доступен)
+    private String url;
+    private boolean isAvailable;
+    private long responseTime;
     private String message;
 }
